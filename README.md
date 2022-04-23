@@ -65,8 +65,7 @@ $ git log
 # Lista o histórico de versões para o branch atual
 
 $ git log --follow [arquivo]
-# Lista o histórico de versões para um arquivo, incluindo mudanças de
-nome
+# Lista o histórico de versões para um arquivo, incluindo mudanças de nome
 
 $ git diff [primerio-branch]...[segundo-branch]
 # Mostra a diferença de conteúdo entre dois branches
