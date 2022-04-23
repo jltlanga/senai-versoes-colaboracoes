@@ -1,7 +1,7 @@
 # senai-versoes-colaboracoes
 Práticas em versionamentos
 
-Segue a lista dos principais comandos utilizados para gerenciar o versionamento dos códigos no ambiente Git
+# Segue a lista dos principais comandos utilizados para gerenciar o versionamento dos códigos no ambiente Git
 
 Git é um sistema de controle de versão distribuído open source que facilita ações com o GitHub
 
@@ -59,6 +59,24 @@ Combina o histórico do branch específico com o branch atual
 
 $ git branch -d [nome-do-branch]
 Exclui o branch específico
+
+
+$ git log
+Lista o histórico de versões para o branch atual
+
+$ git log --follow [arquivo]
+Lista o histórico de versões para um arquivo, incluindo mudanças de
+nome
+
+$ git diff [primerio-branch]...[segundo-branch]
+Mostra a diferença de conteúdo entre dois branches
+
+$ git show [commit]
+Retorna mudanças de metadata e conteúdo para o commit especificado
+
+
+É importante frisar que a lista não pára por aqui, no entanto, essa lista limita-se à oque consegui assimilar no conteúdo apresentado pelo professor.
+
 
 
 
