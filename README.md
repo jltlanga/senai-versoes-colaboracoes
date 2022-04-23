@@ -34,5 +34,31 @@ Mostra diferenças no arquivo que não foram realizadas
 $ git add [arquivo]
 Faz o snapshot de um arquivo na preparação para versionamento
 
+$ git diff --staged
+Mostra a diferença entre arquivos selecionados e a suas últimas
+versões
+
+$ git reset [arquivo]
+Deseleciona o arquivo, mas preserva seu conteúdo
+
+$ git commit -m "[mensagem descritiva]"
+Grava o snapshot permanentemente do arquivo no histórico de versão
+
+
+$ git branch
+Lista todos os branches locais no repositório atual
+
+$ git branch [nome-do-branch]
+Cria um novo branch
+
+$ git checkout [nome-do-branch]
+Muda para o branch específico e atualiza o diretório de trabalho
+
+$ git merge [branch]
+Combina o histórico do branch específico com o branch atual
+
+$ git branch -d [nome-do-branch]
+Exclui o branch específico
+
 
 
