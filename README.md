@@ -16,8 +16,8 @@ commit
 $ git config --global user.email "[endereco-de-email]"
 # Configura o email que você quer ligado as suas transações de commit
 
-## CRIAÇÃO DE REPOSITÓRIOS
-# Criação um novo repositório local com um nome específico
+# CRIAÇÃO DE REPOSITÓRIOS
+ Criação um novo repositório local com um nome específico
 $ git init [nome-do-projeto]
 
 # Baixa um projeto e seu histórico de versão inteiro
